@@ -59,7 +59,7 @@
       (usegerberextensions false)
       (usegerberattributes true)
       (usegerberadvancedattributes true)
-      (creategerberjobfile true)
+      (creategerberjobfile false)
       (dashed_line_dash_ratio 12.000000)
       (dashed_line_gap_ratio 3.000000)
       (svgprecision 4)
@@ -82,9 +82,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "")
+      (outputdirectory "Production/")
     )
   )
 
@@ -1820,8 +1820,8 @@
       (net 15 "Net-(J1-SHIELD)") (pinfunction "SHIELD") (pintype "passive") (tstamp 40960c45-811f-4b3e-8f12-6a77c90dc2d3))
     (pad "S1" thru_hole oval (at 4.32 1.05 90) (size 1 1.6) (drill oval 0.6 1.2) (layers "*.Cu" "*.Mask")
       (net 15 "Net-(J1-SHIELD)") (pinfunction "SHIELD") (pintype "passive") (tstamp 1e4384f8-3334-44fb-9f48-99616bb385d2))
-    (model "${KIPRJMOD}/HRO  TYPE-C-31-M-12.step"
-      (offset (xyz -4.5 -4 0))
+    (model "${KIPRJMOD}/step-files/HRO  TYPE-C-31-M-12.step"
+      (offset (xyz -4.5 -3.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
